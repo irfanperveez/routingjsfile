@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
-app.use(express.json());//kkj
+app.use(express.json());
 app.post('/api/data', (req, res) => {
   const data = req.body;
   // Convert the data object to a string
